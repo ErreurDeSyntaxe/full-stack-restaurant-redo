@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-restaurant-redo",
+  "version": "1.0.0",
+  "description": "Relearning Webpack after happy months without it. Most of it is nebulous at best. It is important to become familiar with what senior developers say is the best thing since sliced bread.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
