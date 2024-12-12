@@ -64,9 +64,9 @@ The goal of the project is to learn Webpack by building a simple page with image
     - [x] "npm install --save-dev style-loader css-loader"
     - [x] Import the CSS file into a JS file
     - [x] Follow the steps in "img.js"
-    - [ ] "npm install --save-dev webpack-dev-server"
-    - [ ] "npx webpack serve"
-    - [ ] Kill the server with ^C
+    - [x] "npm install --save-dev webpack-dev-server"
+    - [x] "npx webpack serve"
+    - [x] Kill the server with ^C
   - [ ] Fix bugs
     - [ ] No Bugs Yet!
   - [ ] Responsive Design
