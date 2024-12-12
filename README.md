@@ -1,8 +1,12 @@
-# Simple Template
+# Revisiting Webpack: Redoing a Restaurant Page
 
-A template for projects that may require Parcel
+Relearning Webpack after happy months without it. Most of it is nebulous at best. It is important to become familiar with what senior developers say is the best thing since sliced bread.
 
 ## About the Project
+
+### Assignment
+
+-[Assignment Page (Dec '24)](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page)
 
 ### Preview
 
@@ -16,75 +20,55 @@ A template for projects that may require Parcel
 
 ### Objective
 
-The goal of the project is to learn xyz by building abc.
+The goal of the project is to learn Webpack by building a simple page with images and tabs.
 
 ### Notable Features
 
-- Add something
-- Edit something
-- Remove something
-- Allow users to complicate dev's job
+- Barebones HTML file
+- Tabs to display specific content (Home, Menu, Contact Info)
+- Webpack
+- Branch deployment
+- ES6 Modules
 
 ### Built With
 
 <img src='./README/html5-logo.svg' style='width:40px; height: 40px' >
 <img src='./README/css3-logo.svg' style='width:40px; height: 40px' >
 <img src='./README/javascript-logo.svg' style='width:40px; height: 40px' >
-<!-- <img src='./README/webpack-logo.svg' style='width:40px; height: 40px' > -->
-<!-- <img src='./README/parcel.ico' style='width:40px; height: 40px' > -->
+<img src='./README/webpack-logo.svg' style='width:40px; height: 40px' >
 
 ## Development
 
 ### To Do
 
 - [ ] Rewrite the README
-  - [ ] Title
+  - [x] Title
   - [ ] Live Page Link
-  - [ ] Objective
-  - [ ] Project Statement
-  - [ ] Notable Features
-- [ ] Plan
-  - [ ] User stories
-  - [ ] Features
-  - [ ] Flowchart
-  - [ ] Architecture
-  - [ ] UI Design/Sketch
+  - [x] Objective
+  - [x] Project Statement
+  - [x] Notable Features
+- [x] Plan
+  - [ ] Walk through the steps laid out by TOP
+  - [ ] Refactor the markup-making JS
 - [ ] Development
   - [ ] Basic HTML
     - [ ] Title
     - [ ] Meta
     - [ ] Rough Structure
     - [ ] Favicons
-  - [ ] Parcel
-    - [ ] "npm init"
-    - [ ] Remove "main": "index.js"
-    - [ ] Later Replace With "default": "index.html"
-    - [ ] Rewrite "test" to "start": "parcel index.html"
-    - [ ] Add "build": "parcel build index.html --dist-dir ./dist"
-    - [ ] "npm i parcel -D"
-    - [ ] Run Local Host With CLI: "npm start"
-    - [ ] Build Deployment-Ready Files With CLI: "npm run build"
   - [ ] Webpack
-    - [ ] "npm init"
-    - [ ] "npm install --save-dev webpack webpack-cli"
-    - [ ] "npm install --save-dev html-webpack-plugin"
-    - [ ] Remove script tag
-    - [ ] "npm install --save-dev style-loader css-loader"
-    - [ ] Import the CSS file into a JS file
-    - [ ] "npm install --save-dev html-loader"
-    - [ ] Follow the steps in "img.js"
+    - [x] "npm init"
+    - [x] "npm install --save-dev webpack webpack-cli"
+    - [x] "npm install --save-dev html-webpack-plugin"
+    - [x] Remove script tag
+    - [x] "npm install --save-dev style-loader css-loader"
+    - [x] Import the CSS file into a JS file
+    - [x] Follow the steps in "img.js"
     - [ ] "npm install --save-dev webpack-dev-server"
     - [ ] "npx webpack serve"
     - [ ] Kill the server with ^C
-  - [ ] Console-Based Logic
   - [ ] Fix bugs
     - [ ] No Bugs Yet!
-  - [ ] UI
-    - [ ] Refined UI
-    - [ ] Color Palette
-    - [ ] Overall Layout
-    - [ ] Individual Section Layout
-    - [ ] Menu/Nav
   - [ ] Responsive Design
     - [ ] Resposive Images (Art Direction)
     - [ ] Media Queries
@@ -95,24 +79,6 @@ The goal of the project is to learn xyz by building abc.
     - [ ] Lighthouse
 - [ ] Review README
 
-### User Stories
-
-- As a user, I want...
-
-### Features
-
-- Users can...
-
-### Flowchart
-
-Page Loads ->
-
-### Architecture
-
-class App {
--greet()
-}
-
 ## Reflection
 
 ### Lessons & Difficulties
@@ -121,4 +87,4 @@ Some lessons learned along the way
 
 ### Diary
 
-Some thoughts regarding the project
+I have dreaded Webpack since first reading about it. Using it was painful, overly complicated, and my challenge to take on. It is a useful piece of technology, and I must learn it.
