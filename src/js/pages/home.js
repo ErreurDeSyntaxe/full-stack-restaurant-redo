@@ -1,5 +1,9 @@
 'use strict';
 
+import restaurant from '../../img/restaurant.jpg';
+const imgRestaurant = document.createElement('img');
+imgRestaurant.src = restaurant;
+
 export const buildHome = function () {
   const markup = `
     <h2>Accueil</h2>
@@ -11,20 +15,20 @@ export const buildHome = function () {
       </p>
 
       <img
-        src=""
+        src="${restaurant}"
         class="wide-img"
         alt="Un restaurant québécois pendant l'automne (généré par MidJourney)"
       />
 
       <div id="hours">
         <h3>Heures d'ouverture</h3>
-        <span>Lundi: fermé</span>
-        <span>Mardi: fermé</span>
-        <span>Mercredi: 13 - 21</span>
-        <span>Jeudi: 13 - 21</span>
-        <span>Vendredi: 13 - 21</span>
-        <span>Samedi: 13 - 22</span>
-        <span>Dimanch: 13 - 22</span>
+        <div>Lundi: fermé</div>
+        <div>Mardi: fermé</div>
+        <div>Mercredi: 13 - 21</div>
+        <div>Jeudi: 13 - 21</div>
+        <div>Vendredi: 13 - 21</div>
+        <div>Samedi: 13 - 22</div>
+        <div>Dimanch: 13 - 22</div>
       </div>
       <div id="location">
         <h3>Adresse</h3>
