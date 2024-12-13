@@ -101,6 +101,8 @@ body {
 /* SECTION STYLING */
 .section {
   padding: 1rem 8rem;
+  width: 80rem;
+  margin: auto;
 }
 
 /* TABS STYLING */
