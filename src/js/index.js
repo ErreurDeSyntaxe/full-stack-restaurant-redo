@@ -14,6 +14,8 @@ const activateTabs = function () {
   const tabContainer = document.querySelector('.tabs');
 
   tabContainer.addEventListener('click', (e) => {
+    if (e.target.classList.contains('tabs')) return;
+
     const section = e.target.id.slice(0, -3);
     tabHome.classList.add('hidden');
     tabMenu.classList.add('hidden');
