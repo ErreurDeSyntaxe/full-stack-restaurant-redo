@@ -37,8 +37,8 @@ True Greys: #555
 /* 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
 
 @font-face {
-  font-family: 'robotoReg';
-  src: url('./font/Roboto-Regular.ttf');
+  font-family: 'rubik';
+  src: url('./font/Rubik-VariableFont_wght.ttf');
 }
 *,
 *::before,
@@ -52,7 +52,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'robotoReg', sans-serif;
+  font-family: 'rubik', sans-serif;
   line-height: 1;
   font-size: 1.6rem;
   font-weight: 400;
