@@ -26,10 +26,10 @@ imgSauce.src = sauce;
 
 export const buildMenu = function () {
   const markup = `
-    <div id="menu">
-      <h2>Menu</h2>
+    <div id="menu" class="section section-menu">
+      <h2 class="header-secondary">Menu</h2>
       <div id="dishes">
-        <h3>Dishes</h3>
+        <h3 class="header-tertiary">Dishes</h3>
         <img
           src="${poutine}"
           class="wide-img"
@@ -48,7 +48,7 @@ export const buildMenu = function () {
       </div>
 
       <div id="bevrages">
-        <h3>Brevages</h3>
+        <h3 class="header-tertiary">Brevages</h3>
         <img
           src="${justWater}"
           class="tall-img"
@@ -71,7 +71,7 @@ export const buildMenu = function () {
       </div>
 
       <div id="extras">
-        <h3>Extras</h3>
+        <h3 class="header-tertiary">Extras</h3>
         <img
           src="${cheese}"
           alt="Une portion de fromage en grains"

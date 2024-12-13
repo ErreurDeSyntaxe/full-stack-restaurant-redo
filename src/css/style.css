@@ -54,6 +54,7 @@ html {
 body {
   font-family: 'robotoReg', sans-serif;
   line-height: 1;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #000;
   background-color: #898f70;
@@ -78,10 +79,32 @@ body {
   width: 28rem;
 }
 
+/* HEADER STYLING */
+.header-primary {
+  font-size: 5.4rem;
+  padding: 1rem;
+  text-align: center;
+}
+.header-secondary {
+  font-size: 3.2rem;
+  margin-bottom: 1.4rem;
+}
+.header-tertiary {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* SECTION STYLING */
+.section {
+  padding: 1rem 8rem;
+}
+
 /* TABS STYLING */
 .tabs {
   display: flex;
   gap: 2rem;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 .tab {
   width: 14rem;
@@ -99,4 +122,11 @@ body {
   cursor: pointer;
   background-color: #dce7ad;
   color: #000;
+}
+
+/* HOME STYLING */
+.intro,
+.hours,
+.location {
+  margin-bottom: 1rem;
 }
