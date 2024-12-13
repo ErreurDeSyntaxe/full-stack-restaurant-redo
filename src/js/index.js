@@ -1,3 +1,8 @@
 import '../css/style.css';
+import { buildContact } from './pages/contact';
+import { buildHome } from './pages/home';
+import { buildMenu } from './pages/menu';
 
-console.log('Hi! My name is Xavier.');
+buildHome();
+buildMenu();
+buildContact();
