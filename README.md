@@ -48,15 +48,12 @@ The goal of the project is to learn Webpack by building a simple page with image
   - [x] Project Statement
   - [x] Notable Features
 - [x] Plan
-  - [ ] Walk through the steps laid out by TOP
-  - [ ] Refactor the markup-making JS
+  - [x] Walk through the steps laid out by TOP
+  - [x] Refactor the markup-making JS
+  - [x] Refactor CSS
+  - [ ] Add fonts to Webpack
 - [ ] Development
-  - [ ] Basic HTML
-    - [ ] Title
-    - [ ] Meta
-    - [ ] Rough Structure
-    - [ ] Favicons
-  - [ ] Webpack
+  - [x] Webpack
     - [x] "npm init"
     - [x] "npm install --save-dev webpack webpack-cli"
     - [x] "npm install --save-dev html-webpack-plugin"
@@ -69,13 +66,9 @@ The goal of the project is to learn Webpack by building a simple page with image
     - [x] Kill the server with ^C
   - [ ] Fix bugs
     - [ ] No Bugs Yet!
-  - [ ] Responsive Design
-    - [ ] Resposive Images (Art Direction)
-    - [ ] Media Queries
-    - [ ] Mobile Menu
   - [ ] Check Accessibility
   - [ ] Optimization
-    - [ ] Images
+    - [x] Images
     - [ ] Lighthouse
 - [ ] Review README
 
