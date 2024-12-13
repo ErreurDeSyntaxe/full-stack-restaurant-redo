@@ -35,6 +35,6 @@ export const buildHome = function () {
         <span>123, Boulevard René-Lévesque, Montréal, Québec, Canada</span>
       </div>
     </div>`;
-  // document.getElementById('content').innerHTML += markup;
+
   document.getElementById('content').insertAdjacentHTML('beforebegin', markup);
 };
