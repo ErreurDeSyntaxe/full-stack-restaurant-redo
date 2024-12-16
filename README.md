@@ -11,12 +11,12 @@ Relearning Webpack after happy months without it. Most of it is nebulous at best
 ### Preview
 
 <div align='center'>
-    <img src='./README/project-preview.png'>
+    <img src='./README/project-preview.jpg'>
 </div>
 
 ### Live
 
-<a href='http://google.com/'>Google</a>
+<a href='https://erreurdesyntaxe.github.io/full-stack-restaurant-redo/'>Restaurant: Chez Xavier</a>
 
 ### Objective
 
@@ -41,9 +41,8 @@ The goal of the project is to learn Webpack by building a simple page with image
 
 ### To Do
 
-- [ ] Rewrite the README
+- [x] Rewrite the README
   - [x] Title
-  - [ ] Live Page Link
   - [x] Objective
   - [x] Project Statement
   - [x] Notable Features
@@ -68,19 +67,20 @@ The goal of the project is to learn Webpack by building a simple page with image
     - [x] Tab Clicking Crash
   - [x] Optimization
     - [x] Images
-- [ ] Deployment
-  - [ ] "git branch gh-pages" (one time only)
-  - [ ] Commit
-  - [ ] "git checkout gh-pages && git merge main --no-edit"
-  - [ ] "npx webpack"
-- [ ] Review README
+- [x] Deployment
+- [x] Review README
+  - [x] Check Sections
+  - [x] Live Page Link
+  - [x] Project Preview
 
 ## Reflection
 
 ### Lessons & Difficulties
 
-Some lessons learned along the way
+The documentation is often difficult to parse and understand.
 
 ### Diary
 
 I have dreaded Webpack since first reading about it. Using it was painful, overly complicated, and my challenge to take on. It is a useful piece of technology, and I must learn it.
+
+Webpack is not as daunting as before, but it truly is complicated, and its benefits are not always obvious or immediate. Reading the documentation, I often find myself asking, "What about this particular case?"
