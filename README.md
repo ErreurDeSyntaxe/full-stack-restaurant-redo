@@ -51,8 +51,8 @@ The goal of the project is to learn Webpack by building a simple page with image
   - [x] Walk through the steps laid out by TOP
   - [x] Refactor the markup-making JS
   - [x] Refactor CSS
-  - [ ] Add fonts to Webpack
-- [ ] Development
+  - [x] Add fonts to Webpack
+- [x] Development
   - [x] Webpack
     - [x] "npm init"
     - [x] "npm install --save-dev webpack webpack-cli"
@@ -64,12 +64,15 @@ The goal of the project is to learn Webpack by building a simple page with image
     - [x] "npm install --save-dev webpack-dev-server"
     - [x] "npx webpack serve"
     - [x] Kill the server with ^C
-  - [ ] Fix bugs
-    - [ ] No Bugs Yet!
-  - [ ] Check Accessibility
-  - [ ] Optimization
+  - [x] Fix bugs
+    - [x] Tab Clicking Crash
+  - [x] Optimization
     - [x] Images
-    - [ ] Lighthouse
+- [ ] Deployment
+  - [ ] "git branch gh-pages" (one time only)
+  - [ ] Commit
+  - [ ] "git checkout gh-pages && git merge main --no-edit"
+  - [ ] "npx webpack"
 - [ ] Review README
 
 ## Reflection
